@@ -1,6 +1,15 @@
-# Attendance Monitoring System
+# Automated Attendance System using Facial Recognition
 
-This project captures attendance using face recognition by connecting a laptop to one of three camera options: a default webcam, a smartphone, or an ESP32-CAM module. Each method captures images, compares them to known faces, and records attendance in a CSV file that’s analyzed through a dashboard.
+This project implements an automated attendance system leveraging facial recognition technology. It offers flexibility by supporting multiple image sources: a webcam, a smartphone camera (via IP Webcam), and an ESP32-CAM module.  The system identifies students, records their attendance in a CSV file, and integrates with a dashboard for visualization and analysis.
+
+## Features
+
+- **Multiple Input Sources:** Supports webcam, smartphone via IP Webcam, and ESP32-CAM.
+- **Real-time Recognition:**  Identifies faces in real-time from the selected input source.
+- **Automated Attendance Recording:** Automatically logs attendance with timestamps in a CSV file.
+- **Dashboard Integration:**  Connects with a dedicated dashboard for attendance visualization and analysis (see [Attendance Dashboard](#attendance-dashboard)).
+- **Efficient Face Recognition:**  Utilizes optimized face recognition libraries for fast and accurate identification.
+- **Customizable:** Easily adaptable to different classroom settings and integration needs.
 
 ## Table of Contents
 1. [Setup Instructions](#setup-instructions)
@@ -130,6 +139,8 @@ Here’s a sample setup (pre-configured in this project):
 ## File Structure
 
 The main files and directories include:
+![Directory Structure](Directory_Structure.png)
+
 
 ```
 - attendance_webcam.py          # Webcam-based attendance capture
