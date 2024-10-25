@@ -139,7 +139,7 @@ Here’s a sample setup (pre-configured in this project):
 ## File Structure
 
 The main files and directories include:
-![Directory Structure](Directory_Structure.png)
+![Directory Structure(Small)](Directory_Structure.png)
 
 
 ```
